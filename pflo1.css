@@ -65,6 +65,17 @@ img{
     padding: 2em;
   }
 
+  .card_layout h2 {
+    color: #ffd138;
+    /* color: white; */
+    font-size: 3rem;
+    
+  }
+
+  .break {
+      margin-top: 10rem;
+  }
+
   .box {
     text-align: center;
     align-self: center;
@@ -76,6 +87,8 @@ img{
 .section-heading{
     text-align: center;
     margin-bottom: 10rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .section-heading h1{
@@ -84,7 +97,7 @@ img{
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     padding-top: 5%;
     
 }

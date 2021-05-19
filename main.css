@@ -53,7 +53,7 @@ img{
 }
 
 .section-heading h1{
-    font-size: 3.5rem;
+    font-size: 6rem;
     color: rgba(255, 255, 255, .3);
     text-transform: uppercase;
     font-weight: 300;
@@ -85,7 +85,7 @@ img{
 }
 
 .section-heading h6{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 300;
 }
 
@@ -100,6 +100,7 @@ header{
     width: 100%;
     height: 100vh;
 }
+
 
 .top-nav{
     width: 100%;
@@ -212,7 +213,7 @@ li{
 
 .landing-text  h1{
     /* font-size: 20rem; */
-    font-size: 20vw;
+    font-size: 10vw;
     font-family: 'The Historia Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -225,6 +226,13 @@ li{
     font-size: 2rem;
     font-weight: 300;
 }
+
+.landing-text img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    
+}
 /*End header*/
 
 /*Start about*/
@@ -232,6 +240,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* margin: 150px; */
 }
 
 .about-heading{
@@ -239,7 +248,10 @@ li{
     text-transform: uppercase;
     line-height: 0;
     margin-bottom: 6rem;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
 .about-heading h1{
     font-size: 10rem;
     opacity: .3;
@@ -251,7 +263,7 @@ li{
 }
 
 .profile-img{
-    flex: 1;
+    flex: 2;
     margin-right: 5rem;
 }
 
@@ -332,6 +344,7 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .portfolio-item:last-child{
@@ -343,9 +356,6 @@ li{
     flex: 1;
 }
 
-.portfolio-description {
-    
-}
 
 .portfolio-description h1{
     font-size: 3rem;
@@ -364,12 +374,26 @@ li{
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #3883ff;
+    /* color: #3883ff; */
+    color:white;
     transition: color 650ms;
+    /* background-color: rgb(194, 70, 48); */
+    background-color: #fd57bf;
+    padding: 1.5rem;
+    border-radius: 5px;
 }
 
 .portfolio-description .cta:hover{
-    color: #2f67cd;
+    /* color: #2f67cd; */
+    background-color: tomato;
+}
+
+/* .portfolio-item .has-margin-right {
+    margin-top: 5rem;
+} */
+
+.break {
+    margin-top: 100px;
 }
 /*End services*/
 
@@ -436,7 +460,10 @@ li{
 /*Start contact*/
 .contact{
     background-color: #221e3f;/*dont think this does anything*/
+
 }
+
+
 form{
     width: 70%;
     margin: 0 auto;
