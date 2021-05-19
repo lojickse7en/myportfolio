@@ -220,6 +220,8 @@ li{
     -webkit-text-fill-color: transparent;
     padding: 1rem; /*if the text (Adebayo Adewole) is clipped off at the top or bottom, add this padding*/
     user-select: none; /*so people aren't dragging around the name logo*/
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .landing-text h6{
