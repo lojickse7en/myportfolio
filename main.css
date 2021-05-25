@@ -283,6 +283,18 @@ li{
     margin: 0 10px 0 0;
 }
 
+.social-media h1 {
+    /* text-align: center; */
+    /* background-color: aqua; */
+    margin-top: 10px;
+    /* display: none; */
+}
+
+.fa-file-alt:hover + .social-media h1  {
+display: block;
+color: red;
+}
+
 .fa-file-alt:hover{
     color: #b24242
 }
