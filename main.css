@@ -283,18 +283,16 @@ li{
     margin: 0 10px 0 0;
 }
 
-.fa-facebook-square:hover{
-    color: #4267b2
+.fa-file-alt:hover{
+    color: #b24242
 }
 
 .fa-linkedin:hover{
     color: #38a1f3
 }
 
-.fa-dribbble-square:hover{
-    color: #ea4c89
-}
-.fa-github-square:hover{
+
+.fa-github:hover{
     color: #485461
 }
 /*End about*/
